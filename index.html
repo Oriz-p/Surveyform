@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" media="screen" href="index.css">
+    <title>Survey form</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+<body>
+    <h1>
+        Survey Form
+    </h1>
+    <div>
+        <div class="body">
+            <p>Let us know how we can improve FreeCodeCamp</p>
+        <div class="form-group">
+            <label class="right">
+                * Name:
+            </label>
+            <input type="text" name="Name" placeholder="Enter your name" class="input-field">
+            <label class="right">
+                * Email:
+            </label>
+            <input type="text" name="Email" placeholder="Enter your Email" class="input-field">
+            <label class="right">
+                * Age:
+            </label>
+            <input type="number" name="Age" placeholder="Age" class="input-field">
+            <label class="right">
+                Which option best describe your current role?
+            </label>
+            <select class="input-field">
+                <option id="invalid"> Select an option</option>
+                <option>Student</option>
+                <option>Full Time Job</option>
+                <option>Full Time Learner</option>
+                <option>Prefer not to stay</option>
+                <option>Other</option>
+            </select>
+            <label class="right">
+                * How likely is that you would recommend freeCodeCamp to a friend? 
+            </label>
+            <span class="line-spacing">
+            <input type="radio" name="recommend" value="Definitely">Definitely<br>
+            <input type="radio" name="recommend" value="May-be">May be<br>
+            <input type="radio" name="recommend" value="Not-sure">Not sure
+            </span>
+            <label class="right">
+                What do you like most in FCC:
+            </label>
+            <select placeholder="Select an option" class="input-field">
+                <option>Challenges</option>
+                <option>Projects</option>
+                <option>Community</option>
+                <option>Open Source</option>
+            </select>
+            <label class="right">
+                Things that should be improved in the future (Check all that apply):
+            </label>
+            <span class="line-spacing">
+                <input type="checkbox">Front-end Projects<br>
+                <input type="checkbox">Back-end Projects<br>
+                <input type="checkbox">Data Visualization<br>
+                <input type="checkbox">Challenges<br>
+                <input type="checkbox">Open Source Community<br>
+                <input type="checkbox">Gitter help rooms<br>
+                <input type="checkbox">Videos<br>
+                <input type="checkbox">City Meetups<br>
+                <input type="checkbox">Wiki<br>
+                <input type="checkbox">Forum<br>
+                <input type="checkbox">Additional Courses
+            </span>
+            <label class="right">
+                Any Comments or Suggestions?
+            </label>
+            <textarea name="comment" placeholder="Enter your  comment here..." class="input-field"></textarea>
+        </div>
+        <div id="button-section">
+        <button>Submit</button>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
